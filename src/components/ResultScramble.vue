@@ -24,7 +24,7 @@ const copyScramble = ()=>{
   <input
       type="text"
       v-model.trim="scramble"
-      placeholder="Enter scramble…"
+      placeholder="Enter scramble, press Enter…"
       @keyup.enter="copyScramble"
       autofocus
   >
